@@ -1,0 +1,41 @@
+/*starter CSS*/
+       .face {
+        background-color: gold;
+        border-radius: 300px;
+        border: 1.5px solid rgb(0,0,0);
+        height: 300px;
+        position: relative;
+        width: 300px;
+        box-shadow: 0 5px 5px  rgba(31, 28, 28, 0.73);
+      }
+      .eyeleft {
+        background-color: rgb(0,0,0);
+        border-radius: 30px;
+        height: 60px;
+        position: absolute;
+        top: 70px;
+        width: 60px;
+        margin-left: 55px;
+      }
+
+      .eyeright {
+        background-color: rgb(0,0,0);
+        border-radius: 30px;
+        height: 60px;
+        position: absolute;
+        top: 70px;
+        width: 60px;
+        margin-left: 180px;
+      }
+      .mouth {
+        height: 200px;
+        width: 100px;
+        border: 20px solid rgb(0,0,0);
+        border-radius: 300px;
+        border-right: 10px  transparent;
+        border-top: 10px  transparent;
+        border-left: 10px transparent;
+        margin-top: 50px;
+        margin-left: 50px;
+        margin-right:50px;
+      }

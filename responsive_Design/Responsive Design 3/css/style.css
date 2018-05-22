@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Gugi');
+
+html, body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: linear-gradient(to right, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05));
+    font-size: 16px;
+
+
+}
+
+header{
+    background:  linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.05)), url(../images/kingdom.jpg);
+    height: 100vh;
+  
+}
+
+header nav {
+    height: 90px;
+}
+
+nav .signin {
+    color: #fff;
+    float: right;
+    background-color: #1809e5;
+    line-height: normal;
+    margin-top: 18px;
+    margin-right: 3%;
+    padding: 7px 17px;
+    font-weight:400;
+    border-radius:3px;
+    font-size: 16px;
+    text-decoration: none;
+}
+.pitch{
+    margin: 0 3%;
+    position: absolute;
+    top: 35%;
+    font-size:1.8vw;
+}
+
+.pitch_title {
+    font-size: 3em;
+    margin: 0 0 0.2em;
+    font-weight: 700;
+}
+
+.pitch_subtitle{
+    margin: 0 0 .5em
+}
+
+.btn{
+    font-size: 14px;
+    letter-spacing: 1.9px;
+    font-weight: 400;
+    margin: .5em .5em .5em 0;
+    padding: 12px 2em;
+    color: #fff;
+    background-color: #1809e5;
+    text-decoration: none;
+    vertical-align: middle;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 2px;
+    text-align: center;
+    user-select: auto;
+    border: 0;
+    box-shadow: 0 0 5px 5px ;
+}
+
+nav .signin:hover, .btn:hover {
+    background: #2f1aec;
+
+}
+
+h2 {
+   color:red;
+   font-family: 'Gugi', cursive;
+   font-size: 2em;
+   background-color: rgb(12, 12, 11);
+}
+
+section img {
+    margin-left: 90px;
+}
+
+img, .future {
+    margin-left: 250px;
+    margin-top: 70px;
+}
+
+footer p {
+    background-color: rgb(7, 6, 6);
+    padding: 20px;
+}

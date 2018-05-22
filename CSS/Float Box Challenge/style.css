@@ -1,0 +1,64 @@
+.box, .box_2, .box_3, .box_4{
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  display: inline-block;
+}
+
+.box{
+  background-color: blue;
+  float: left;
+}
+
+.box_2{
+  background-color: yellow;
+  float: left;
+}
+
+.box_3{
+  background-color: red;
+  float: right;
+}
+
+.box_4{
+  background-color: green;
+  float: right;
+}
+
+/*PSEUDO CLASS*/
+
+.box:hover{
+  background-color: purple;
+}
+
+.box_2:hover{
+  background-color: grey;
+}
+
+.box_3:hover{
+  background-color: #89434a;
+  width: 50px;
+}
+
+.box_4:hover{
+  background-color: turquoise;
+  width: 600px;
+}
+
+/*ACTIVE BOX*/
+
+.box:active {
+  background-color: lime;
+}
+
+.box_2:active {
+  background-color: #246536;
+}
+
+.box_3:active {
+  background-color: #635322;
+}
+
+.box_4:active {
+  background-color: #683432;
+}

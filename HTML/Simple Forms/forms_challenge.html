@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+    <title>Vida Cafe Survey</title>
+</head>
+<body>
+  <center><h1>Vida Cafe Survey<h2></center>
+  <div>
+    <h2>Please tell us little about yourself!</h2>
+     <form action="q" method="post">
+       <table>
+            <tr>
+               <td>First Name</td>
+               <td><input type="text" name="firstname" placeholder="First Name" required ></td>
+            </tr>
+            <tr>
+              <td>Last Name</td>
+              <td><p><input type="text" name="lastname" placeholder="last Name" required ></p></td>
+            </tr>
+            <tr>
+              <td>Phone Number</td>
+              <td><p><input type="number" name="phonenumber" placeholder="Phone Number" pattern="3"  required></p></td>
+            </tr>
+            <tr>
+              <td>Email</td>
+              <td><p><input type="email" name="Email" placeholder="Email" required></p></td>
+            </tr>
+            <tr>
+              <td>Password</td>
+              <td><p><input type="password" name="Password" placeholder="Password" maxlength="20" required ></p></td>
+            </tr>
+            <tr>
+              <td>Birthday</td>
+              <td><p><input type="date" name="bday" required></p></td>
+            </tr>
+       </table>
+
+      Gender
+    <select name="Gender">
+         <option value="Male">Male</option>
+         <option value="Female">Female</option>
+         <option value="Other">Other</option>
+    </select>
+<hr>
+<h2>Questions</h2>
+
+<br>
+  <p>1.How Often do you visit coffee shops?</p>
+  <p> Select an option : 1 = rarely & 5 = Very Often</p>
+   <p><input type="checkbox" name="cofee shop visits">1<input type="checkbox" name="cofee shop visits">2<input type="checkbox" name="cofee shop visits">3<input type="checkbox" name="cofee shop visits">4<input type="checkbox" name="cofee shop visits">5</p>
+
+<br>
+  <p>2.What is your favorite coffee shop? Where is it located?</p>
+   <p><textarea rows="5" cols="30"></textarea></p>
+
+<br>
+ <p>3.What do you typically order to drink?</p>
+  <p><textarea rows="5" cols="30"></textarea></p>
+<br>
+  <p>4.Do you prefer large, national chain coffee shops</p>
+  <p><input type="radio" name="Yes">Yes, I prefer large, national chain coffee shops.</p>
+  <p><input type="radio" name="No">No, I do not prefer large, national chain coffee shops.</p>
+  <p>Or small, privately owned coffee shops?</p>
+  <p><input type="radio" name="Yes">Yes,I prefer small, privately owned coffee shops</p>
+  <p><input type="radio" name="No">No, I do not prefer small, privately owned coffee shops</p>
+  <br>
+  Please tell us how we can improve our service.
+<p><textarea rows="10" cols="50"></textarea></p>
+<hr>
+<br>
+<center><p><input type="submit">         <input type="reset"></p></center>
+
+     </form>
+  </div>
+</body>
+</html>

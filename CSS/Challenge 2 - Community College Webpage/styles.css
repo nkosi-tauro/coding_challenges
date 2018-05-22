@@ -1,0 +1,114 @@
+/* General setup */
+/* Remember to always comment*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+  font-family: serif;
+
+}
+
+h1,h2{
+  font-family:sans-serif;
+}
+
+/* Layout */
+
+section {
+  float: left;
+  width: 50%;
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+
+footer {
+  clear: both;
+}
+
+header, section, aside, nav, footer {
+  padding: 20px;
+}
+
+
+/* header and footer */
+
+header, footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+  border-radius: 6px;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
+
+/*Navigation*/
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+dc
+.topnav .icon {
+  display: none;
+}
+
+/*Links*/
+
+a:link {
+    text-decoration: underline;
+    color: #4C243B;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color:#E3170A;
+}
+
+a:active {
+    text-decoration: underline;
+    color:#030027;
+}
+a[target="_blank"]:after {
+    content: " (external)";
+}
+
+/*external link Indicator*/
+.external{
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-image: url("Icon_External_Link.png");
+  padding: 13px
+}
+

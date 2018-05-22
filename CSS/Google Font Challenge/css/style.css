@@ -1,0 +1,15 @@
+/*Fonts imported using @import method*/
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One');
+@import url('https://fonts.googleapis.com/css?family=Poor+Story|Press+Start+2P');
+
+p1{
+  font-family: 'Kirang Haerang', cursive;
+  font-family: 'Yeon Sung', cursive;
+  font-family: 'Gugi', cursive;
+}
+
+p2{
+  font-family: 'Poor Story', cursive;
+  font-family: 'Press Start 2P', cursive;
+  font-family: 'Fredoka One', cursive;
+}

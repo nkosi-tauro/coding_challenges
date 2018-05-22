@@ -1,0 +1,71 @@
+body{
+  padding: 40px 20px;
+  background: linear-gradient(#00c3ff, #ffff1c);
+  
+}
+
+.navbar{
+  text-align: center;
+  font-size: 2em;
+  position: sticky;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(5, 0, 8);
+  letter-spacing: 6px;
+  word-spacing: 70px;
+  border-bottom:2px solid transparent;
+}
+
+a:hover{
+  transition: all ease-out 0.5s;
+  border-color: rgb(223, 36, 3);
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+  background: linear-gradient(#00c3ff, #ffff1c);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.container > div {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 150px;
+  font-size: 20px;
+  text-align: left;
+}
+
+.item1, .item6{
+  grid-column: 1/3;
+  box-shadow: 0 0 5px 5px gray;
+}
+
+
+.item1{
+  background-color: hotpink;
+  box-shadow: 0 0 5px 5px gray;
+  justify-content: right;
+}
+.item2{
+  background-image: url(../images/3.1.jpg);
+}
+.item3 {
+  background-image: url(../images/p.jpg);
+}
+.item4 {
+  background-image: url(../images/j.jpg);
+}
+.item5 {
+  background-image: url(../images/y.jpg);
+  background-size: cover;
+}
+.item7{
+  background-image: url(../images/lifechoices_candice.jpg);
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  
+}

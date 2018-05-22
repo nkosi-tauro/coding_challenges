@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+    <title>Form Validation Challenge</title>
+</head>
+<body>
+  <h1>Registration Form</h1>
+<br>
+<form action="www.google.com" method="post">
+ <table>
+   <tr>
+      <td>User ID</td>
+      <td><input type="text" name="Userid" required min="5" max="12" placeholder="*required"></td>
+   </tr>
+   <tr>
+      <td>Password</td>
+      <td><input type="password" name="password" required min="7" maxlength="12" placeholder="*required"></td>
+   </tr>
+   <tr>
+      <td>Name</td>
+      <td><input type="Text" name="fieldname1" required placeholder="*required" pattern="[a-zA-Z]{1,}"></td>
+   </tr>
+   <tr>
+      <td>Address</td>
+      <td><input type="Address" name="address" placeholder="*optional"></td>
+   </tr>
+   <tr>
+      <td>Country</td>
+      <td><input list="Countries" name="Country" placeholder="please select an option" required>
+<datalist id="Countries">
+  <option value="Austria">
+  <option value="Brazil">
+  <option value="China">
+  <option value="Denmark">
+  <option value="Estonia">
+  <option value="France">
+  <option value="Japan">
+  <option value="South Africa">
+  <option value="United States Of America">
+  <option value="Zimbabwe">
+</datalist></td>
+  </tr>
+ </table>
+ <table>
+   <tr>
+      <td>Zip Code</td>
+      <td><input type="number" name="zip code" placeholder="*required"  pattern="0-5"max="10" required></td>
+   </tr>
+   <tr>
+      <td>Email</td>
+      <td><input type="email" name="email" required placeholder="*required"</td>
+   </tr>
+   <tr>
+      <td>Sex</td>
+      <td><input type="radio" name="Male" checked>Male</input><input type="radio" name="Female">Female</input><input type="radio" name="Other">Other</input></td>
+   </tr>
+   <tr>
+      <td>Language</td>
+      <td><input type="checkbox" name="English">English<input type="checkbox" name="Non-English">Non-English</td>
+   </tr>
+   <tr>
+     <td>About:</td>
+     <td><textarea rows="10" cols="50" placeholder="About"></textarea></td>
+   </tr>
+ </table>
+ <br>
+      <p><input type="submit"></p>
+
+</form>
+
+</body>
+</html>

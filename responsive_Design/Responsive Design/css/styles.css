@@ -1,0 +1,60 @@
+.item1 {grid-area: header;}
+.item2 {grid-area: navbar;}
+.item3 {grid-area: section;}
+.item4 {grid-area: article;}
+.item5 {grid-area: article2 ;}
+.item6 {grid-area: article3;}
+.item7 {grid-area: footer;}
+
+
+.grid-container{
+    background-color: #fff;
+    display: grid;
+    grid-template-areas: ' header header header header header header'
+    'navbar navbar section section section section'
+    'article article article2 article2 article3 article3'
+    'footer footer footer footer footer footer';
+    grid-gap: 10px;
+    padding: 10px;
+   
+}
+
+.grid-container > div {
+ background-color: rgb(34, 179, 5);
+ border-radius: 6px;
+ padding: 20px;
+ text-align: center;
+}
+
+/* mobile view */
+@media only screen and 
+(max-width: 426px) and (min-width:320px) {
+    .grid-container > div {
+        background-color: rgb(224, 2, 2);
+    }
+}
+
+
+/* Tablet */
+@media only screen and 
+(max-width: 768px) and (min-width:426px) {
+    .grid-container > div {
+        background-color:rgb(6, 6, 219);
+    }
+}
+/* Laptop */
+@media only screen and 
+(max-width: 1024px) and (min-width:800px) {
+    .grid-container > div {
+        background-color: rgb(22, 218, 4);
+    }
+}
+
+
+/*  large Desktop */
+@media only screen and 
+(max-width: 1449px) and (min-width:1050px) {
+    .grid-container > div {
+        background-color:rgb(255, 166, 0);
+    }
+}

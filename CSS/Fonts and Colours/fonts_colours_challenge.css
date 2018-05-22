@@ -1,0 +1,29 @@
+/*Type Selector*/
+selector { property: value; }
+
+body {
+  background-color: yellow;
+
+}
+
+h2{
+  color:purple;
+}
+h3{
+  color: blue;
+}
+
+h4{
+  color: red;
+}
+
+h5{
+   color: green;
+}
+p1,p3{
+  font-style: italic;
+}
+
+p2,p5{
+  font-style: normal;
+}

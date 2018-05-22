@@ -1,0 +1,41 @@
+/*emoji face*/
+
+.round{
+    height: 300px;
+    width: 300px;
+    margin-top: 150px;
+    border: 1px solid #FFC107;
+    border-radius: 300px;
+    background-color: gold;
+    box-shadow: 0 20px 20px  rgba(31, 28, 28, 0.73);
+}
+
+.eye1{
+    height: 50px;
+    width: 50px;
+    margin-top: 100px;
+    margin-left: -100px;
+    border-radius: 50px;
+    background-color: rgb(12, 223, 30);
+}
+
+.eye2{
+    height: 50px;
+    width: 50px;
+    margin-top: -49px;
+    margin-left: 100px;
+    border-radius: 50px;
+    background-color: rgb(15, 29, 223);
+}
+
+.mouth{
+    border:  16px solid rgb(196, 9, 9);
+    height: 150px;
+    width: 100px;
+    margin-top: -50px;
+    border-right: 10px  transparent;
+    border-top: 10px  transparent;
+    border-left: 10px transparent;
+    border-radius: 600px;
+}
+

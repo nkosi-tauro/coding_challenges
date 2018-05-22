@@ -1,0 +1,144 @@
+/*Heading*/
+h1, a, p, #text{
+    font-family: 'Fredoka One', cursive;
+  }
+  h1{
+    text-align: center;
+    font-size: 30px;
+    border: solid transparent;
+    padding: 20px;
+
+  }
+  p{
+      text-align: center;
+      padding: 10px;
+      text-decoration-color: orange;
+  }
+  
+  body{
+      background-image: url('feng.jpg');
+      background-color: #f2f2f2;
+  }
+/*Form*/
+
+input[type=text]  {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=email]  {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=telNo]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 30%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button1 {
+    width: 25%;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;   
+}
+
+div {
+    border-radius: 5px;
+    padding: 40px;
+}
+
+/*footer*/
+
+.footer{
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:  #46367a;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+/*LINKS*/
+
+a:link{
+ color: gold;
+ text-decoration-line: none;
+}
+
+a:visited{
+    color: black;
+    text-decoration-line: none;
+}
+
+a:hover{
+    color: blue;
+    text-decoration-line: underline;
+}
+
+a:active{
+    color: gold;
+    text-decoration-line: none;
+}
+
+/*Overlay*/
+#overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+}
+
+#text{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    color: white;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}
