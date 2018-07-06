@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+p{
+   
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.3em;
+}
+#p{
+    text-align: center
+}
+
+input{
+    border-bottom-color: red;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    padding: 20px;
+    margin-left: 40%;
+}
+
+ button{
+    margin-left: 43%;
+    border-radius: 3px;
+    padding:10px;
+    background-color: aqua;
+}

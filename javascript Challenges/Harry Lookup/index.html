@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    
+
+    <script>
+        
+        var characters = [
+    {
+        "firstName": "Harry",
+        "lastName": "Potter",
+        "likes": ["Hogwarts", "Magic", "Hagrid"],
+        "dislikes": ["Voldemort", "Moaning Myrtle", "Dementors"],
+    },
+
+    {
+        "firstName": "Albus",
+        "lastName": "dumbledoe",
+        "likes": ["Hogwarts", "Magic", "Harry"],
+        "dislikes": ["Voldemort", "Moaning Myrtle", "Dementors"],
+    },
+
+    {
+        "firstName": "Hermoine",
+        "lastName": "Granger",
+        "likes": ["Hogwarts", "Magic", "Harry"],
+        "dislikes": ["Voldemort", "Moaning Myrtle", "Dementors"],
+    },
+
+];
+
+
+function lookUp(firstName, prop){
+
+if(firstName == "Harry"||"Hermoine" ||"Albus"){
+    return "Yea"
+}
+else {
+    return "Theres no such character"
+}
+
+
+if(prop == characters[1] || characters[2]){
+    return "Yea 2.0"
+}
+else {
+    return "Theres no such property"
+}
+}
+lookUp("Harry", "likes");
+    </script>
+</body>
+</html>

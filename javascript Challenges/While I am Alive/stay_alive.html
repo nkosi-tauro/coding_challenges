@@ -1,0 +1,41 @@
+<!<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+        <div id="ani-wrp">
+                <div class="animation"> 1 </div>
+                <div class="animation"> 2 </div>
+                <div class="animation"> 3 </div>
+                <div class="animation"> 4 </div>
+                <div class="animation"> 5 </div>
+                <div class="animation"> 6 </div>
+                <div class="animation"> 7 </div>
+                <div class="animation"> 8 </div>
+        </div>
+
+        <script>
+        $(document).ready(function(){
+	function BoxAnimate(){
+	var count= 0;
+		while( count < 9){
+			//alert(count);
+			$(".animation").eq(count).stop(true, true).delay(1100*count).animate({
+				left:"500px"
+			});
+			count++;
+		}
+	}
+
+	BoxAnimate();
+});
+        </script>
+</body>
+</html>

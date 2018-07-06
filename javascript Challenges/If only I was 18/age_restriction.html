@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    
+</head>
+<body>
+    <div>
+        
+        <div>
+                <div><p>Input your age below to verify if you are eligible to drive</p></div>
+            <form id="form1">
+            <input id="user" type="number" name="number" placeholder="How old are you?">
+        </form>
+        </div><br>
+        <div><button id="btn" onclick="clickThis()">Check Age</button></div><br>
+
+        <div><p id="p">Your Results Will display here!</p></div>
+    </div>
+    <script>
+
+
+      
+
+
+
+        
+        
+        function clickThis(){
+            // //We get form infomation using document.forms
+            ///we use the input "name" not id
+            ///our variables can be anything
+
+            let userAge = document.forms["form1"]["number"].value;
+            let p =document.getElementById("p");
+
+        if(userAge <= 17){
+            document.getElementById("p").innerHTML = "You are too young to drive";
+            p.style.backgroundColor = "red";
+            p.style.padding = "20px"
+            
+        
+        }
+        else{
+            document.getElementById("p").innerHTML = "Yea You are old enough!"
+            p.style.backgroundColor = "green";
+            p.style.padding = "20px"
+        }
+    }
+
+
+    </script>
+</body>
+</html>

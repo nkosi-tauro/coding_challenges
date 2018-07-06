@@ -1,0 +1,47 @@
+<!<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+
+<p id="timer"></p>
+
+<script>
+///date to countdown
+let countDownDate = new Date("Aug 5, 2018 17:00:00").getTime()
+
+///Countdown set to every 1 second
+let x = setInterval(function(){
+
+    ///We get todays current date and time
+    let now = new Date().getTime()
+
+    //We find the distance between now and the countdown date
+    let distance = countDownDate - now;
+
+    ///Calculations for time (days, hours, minutes & seconds)
+    let days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    let hours = Math.floor((distance % (1000 * 60 * 60 * 24))/(1000* 60 *60));
+    let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    let seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    ///Display Content in our Html Tag (timer)
+    document.getElementById("timer").innerHTML = days + "d" + hours + "h" + minutes +"m" + seconds + "s";
+
+    /////IF the coundown is finished we can set some text to be displayed
+    if(distance < 0){
+        clearInterval(x)
+        document.getElementById("timer").innerHTML = "COMPLETE";
+    }
+},1000);
+
+</script>
+
+</body>
+</html>

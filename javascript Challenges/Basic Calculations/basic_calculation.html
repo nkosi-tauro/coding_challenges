@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+
+    </form>
+
+
+    <script>
+      
+
+        function Calculator() {
+
+this.read = function() {
+  this.a = +prompt('a?');//4
+  this.b = +prompt('b?');///2
+};
+
+///ADDITION
+this.sum = function() {
+  return this.a + this.b;
+};
+
+///MULTIPLICATION
+this.mul = function() {
+  return this.a * this.b;
+};
+
+///SUBTRACTION
+this.sub = function() {
+  return this.a - this.b;
+};
+
+///DIVISION
+this.div = function() {
+  return this.a / this.b;
+};
+}
+
+let calculator = new Calculator();
+calculator.read();
+
+alert( "Sum=" + calculator.sum() );
+alert( "Multiplication=" + calculator.mul() );
+alert( "Subtraction=" + calculator.sub() );
+alert( "Division=" + calculator.div() );
+    
+    </script>
+
+
+</body>
+</html>
